@@ -1,0 +1,335 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=The+Nautigal:wght@700&display=swap');
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+html{
+    overflow-y: scroll;
+}
+figure{
+    margin: 0;
+}
+ul{list-style: none;}
+
+a img{
+    border: none;
+}
+
+.ir_wa{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100%;}
+/* 의미있는 이미지의 대체 텍스트를 적용하는 경우 */
+.ir_pm{
+    display: block;
+    overflow: hidden;
+    font-size: 0%;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+/* 대체 텍스트가 아닌 접근성을 위한 숨긴 텍스트 */
+.ir_so{
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;}
+/* 스킵네비게이션 */
+#skip{position: relative;}
+    
+#skip a{
+    position: absolute;
+    left: 0;
+    top: -35px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: #333;
+    line-height: 30px;
+    width: 300px;
+    text-align: center;}
+
+#skip a:active,#skip a:focus{
+    top: 0;
+}
+
+/* 메인스타일 */
+html,body{
+font-family: 'Noto Sans KR', sans-serif;
+line-height: 1.7;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* 공통디자인요소 */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+.text-primary{
+    color: #333;
+}
+.lead{
+    font-size: 20px;
+}
+.gnb-info ul .info{
+    margin-left: 50px;
+}
+/* 패키지바로가기 버튼 */
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: -440px;
+}
+.btn:hover{
+    background: #f7c08a;
+    color: #333;
+}
+/* 패키지 버튼 끝 */
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background:#e5e4e4;    
+    color: #fff;
+}
+.bg-primary{
+    background: #f7c08a;
+    color: #333;
+}
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.clr{clear: both;}
+.l-heading{
+    font-size: 40px;
+    line-height: 2;
+}
+/* 패딩 */
+.py-1{
+    padding: 10px 0;
+}
+.py-2{
+    padding: 20px 0;
+}
+.py-3{
+    padding: 30px 0;
+}
+
+/* 네비바 */
+#navbar{
+    /* background: #333; */
+    color: #000;
+    overflow: auto;
+
+}
+/* ------------------------------------ */
+/* #navbar h1{
+    float: left;
+    height: 40px;
+    width: 100%;
+    padding-top: 12px;
+    margin-bottom: -40px;
+    font-size: 24px;} */
+#navbar h1{
+    background-image: url("https://www.origins.co.kr/media/images/global/origins_logo_new.png");
+    background-repeat: no-repeat;
+    background-position: 0 23px;
+    background-size: 163px;
+    height: 51px;
+    width: 100%;
+}
+#navbar ul{
+    float: right;
+} 
+#navbar ul li{
+    float: left;
+}  
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+} 
+/* ------------------------------------- */
+#navbar a{
+    color:#000;
+}
+/* navbar에 호버줄시  */
+/* #navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #3d561e;
+} */
+.gnb-info{
+    margin-top: -50px;
+}
+
+.info a:hover{
+    background: #2b440c;
+    color: #fff;
+}
+#navbar ul li a:hover{
+    color: #65932c;
+}
+#showcase{
+    background: url("https://www.origins.co.kr/media/export/cms/homepage/ORI_MMTL22_DESKTOP_HP_08_02.jpg")
+    no-repeat center center/cover;
+    height: 715px;
+    /* 이미지원래사이즈 */
+    /* width: 1280px;
+    height: 530px; */
+}
+#showcase .showcase-content{
+    color: #333;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h2{
+    font-size: 60px;
+    line-height: 1.2em;
+    text-align: left;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    text-align: left;
+    line-height: 1.7em;
+}
+/* 홈 인포 */
+#home-info{
+    height: 120px;
+    overflow: hidden;
+}
+/* #home-info .info-img{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    background: url("/img/photo-1.jpg");
+} */
+#home-info .info-content{
+    float: right;
+    width: 99vh;
+    height: 100%;
+    text-align: center;
+    padding: 30px 30px;
+}
+#home-info h2{
+    width: 123px;
+    color: #333;
+    border-bottom: 2px solid #000;
+    margin-top: -30px;
+}
+    /* fetures */
+.box img{
+    width: 339px;
+    height: 339px;
+}
+#features img::after{
+    background-image: url("https://www.origins.co.kr/media/export/cms/products/600x600_gray/origins_sku_0J3M01_600x600_gray_1.jpg") no-repeat center/cover;
+    opacity: 1;
+}
+.box{
+    position: relative;
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    height: 600px;
+    min-height: 300px;
+}
+
+#fetures button{
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+/* footer */
+#main-footer{
+    width: 100%;
+    text-align: right;
+    background: #000;
+    color:#fff;
+    padding-top: 20px;
+    height: 255px;
+    margin: 0 auto;
+    position: relative;
+}
+#main-footer .inner{
+    margin: 0 auto;
+}
+.footer_top{
+    height: 160px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#footer-info {
+    position: relative;
+	height: 70px;
+    border-top: 1px solid #fff;
+    padding:0 15px 30px 20px;
+}
+
+#footer	.all_fl {
+	float: left;
+	padding-top: 15px;
+
+}
+
+#footer .info_text {
+	line-height: 0;
+}
+
+
+.site_lan{
+    text-align: left;
+    color: #fff;
+    margin-top: -67px;
+    margin-left: 30px;
+}
+.site_lan a{
+    color: #fff;
+}
+.info_text .origins_info {
+	margin-top: 5px;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 17px;
+}
+
+#footer-info .copyright{
+margin-right: -530px;
+}

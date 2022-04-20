@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+#navbar{
+    border-bottom: 1px solid #000;
+}
+
+.container{
+    margin: 0 20px;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+.info-left h1{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.place1{
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+#map{
+    margin: -339px auto -7px;    
+    width: 70%;
+    height: 100%;
+    min-height: 600px;
+    float: right;
+    position: relative;
+}
+#main-footer{
+    overflow: hidden;
+    height: 268px;
+}
+.gnb-info{
+    margin-top: -50px;
+}
+
+.info a:hover{
+    background: #2b440c;
+    color: #fff;
+}
+#navbar ul li a:hover{
+    color: #65932c;
+}

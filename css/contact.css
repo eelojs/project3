@@ -1,0 +1,32 @@
+/* contact form */
+.btn{
+    margin-left: 0px;
+}
+.btn:hover{
+    background-color: #36563d;
+    color: #fff;
+}
+.cancel{
+    font-size: 18px;
+
+}
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact-form input:focus, #contact-form textarea:focus{
+    outline: none;
+    border-color: #f7c08a
+}
+#main-footer{
+    overflow-x: hidden;
+    margin-top: 87px;
+}
