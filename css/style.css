@@ -144,23 +144,12 @@ p{
 
 /* 네비바 */
 #navbar{
-    /* background: #333; */
     color: #000;
     overflow: auto;
 
 }
-/* ------------------------------------ */
-/* #navbar h1{
-    float: left;
-    height: 40px;
-    width: 100%;
-    padding-top: 12px;
-    margin-bottom: -40px;
-    font-size: 24px;} */
+
 #navbar h1{
-    background-image: url("https://www.origins.co.kr/media/images/global/origins_logo_new.png");
-    background-repeat: no-repeat;
-    background-position: 0 23px;
     background-size: 163px;
     height: 51px;
     width: 100%;
@@ -180,11 +169,7 @@ p{
 #navbar a{
     color:#000;
 }
-/* navbar에 호버줄시  */
-/* #navbar ul li a:hover,
-#navbar ul li a.current{
-    background: #3d561e;
-} */
+
 .gnb-info{
     margin-top: -50px;
 }
@@ -197,7 +182,7 @@ p{
     color: #65932c;
 }
 #showcase{
-    background: url("https://www.origins.co.kr/media/export/cms/homepage/ORI_MMTL22_DESKTOP_HP_08_02.jpg")
+    background: url("../images/home_banner.png")
     no-repeat center center/cover;
     height: 715px;
     /* 이미지원래사이즈 */
@@ -224,12 +209,6 @@ p{
     height: 120px;
     overflow: hidden;
 }
-/* #home-info .info-img{
-    float: left;
-    width: 50%;
-    min-height: 100%;
-    background: url("/img/photo-1.jpg");
-} */
 #home-info .info-content{
     float: right;
     width: 99vh;
@@ -247,10 +226,6 @@ p{
 .box img{
     width: 339px;
     height: 339px;
-}
-#features img::after{
-    background-image: url("https://www.origins.co.kr/media/export/cms/products/600x600_gray/origins_sku_0J3M01_600x600_gray_1.jpg") no-repeat center/cover;
-    opacity: 1;
 }
 .box{
     position: relative;
