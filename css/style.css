@@ -185,9 +185,7 @@ p{
     background: url("../images/home_banner.png")
     no-repeat center center/cover;
     height: 715px;
-    /* 이미지원래사이즈 */
-    /* width: 1280px;
-    height: 530px; */
+
 }
 #showcase .showcase-content{
     color: #333;
